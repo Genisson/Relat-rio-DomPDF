@@ -1,0 +1,155 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ============ CABEÇALHO ============ */
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.cabecalho {
+    width: 100%;
+    margin-top: 15px;
+    /* overflow: auto; */
+
+
+
+}
+
+.cabecalho .logo {
+    width: 20%;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+    border: solid 0.5px black;
+    text-align: center;
+}
+
+.cabecalho .logo img {
+    width: 120px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.cabecalho .titulo {
+    text-align: center;
+    background-color: #8c8c8c;
+    width: 75%;
+    float: left;
+    height: 90px;
+    border: solid 0.5px black;
+    font-size: larger;
+
+}
+
+.cabecalho .titulo h2 {
+    padding-top: 5px;
+
+}
+
+/* ================= CATEGORIAS ================ */
+
+
+.categorias table {
+    border-radius: 5px;
+    border: 1px solid #8c8c8c;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 2px;
+
+
+}
+
+.categorias table th {
+    font-weight: bold;
+    background-color: #8c8c8c;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    width: 25%;
+    font-size: 20px;
+
+
+}
+
+.categorias table td {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    border: 1px dotted;
+
+}
+
+/* ======= DADOS RELATÓRIO ====== */
+
+.dados {
+    width: 100%;
+
+}
+
+.dados .table {
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.dados .table tbody tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+
+.dados .table thead {
+    background-color: #8c8c8c;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+
+
+}
+
+.dados .table thead th {
+    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.dados .table td {
+
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+
+}
+
+.dados .table tbody th {
+
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+
+.dados .table tbody td {
+
+    text-align: left;
+    font-size: 13px;
+
+
+}
