@@ -1,1 +1,1 @@
-# Relat-rio-DomPDF
+# Relatório elaborado com a biblioteca DOMPDF.
